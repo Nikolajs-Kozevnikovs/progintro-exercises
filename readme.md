@@ -8,4 +8,4 @@ Useful links:
 [Git commands catalogue](https://www.git-scm.com)
 [Markdown Starter guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-This is a breaking change.
+This is a conflicting change.
