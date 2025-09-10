@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "53YeUB2/fPE=",
+  "dgSpecHash": "A81hYUb3otI=",
   "success": true,
-  "projectFilePath": "/home/nick-dev/progintro-exercises/hello/hello.csproj",
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\nick-dev\\progintro-exercises\\hello\\hello.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
