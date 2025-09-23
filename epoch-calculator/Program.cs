@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-int time_seconds = 1757660084;
+﻿int time_seconds = 1757660084;
 
 int time_years = time_seconds / (365*60*60*24);
 int time_days = (time_seconds - time_years*365*24*60*60)/60/60/24;
