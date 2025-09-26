@@ -10,9 +10,18 @@ void print_sudoku (int[][]puzzle)
   Console.WriteLine("");
   for (int i = 0; i < puzzle.Length; i++)
   {
+    if (i != 0 && i % 3 == 0)
+    {
+      Console.WriteLine("___________________");
+    }
     for (int j = 0; j < puzzle[i].Length; j++)
     {
+      if (j != 0 && j % 3 == 0)
+      {
+        Console.Write("|");
+      }
       Console.Write("{0} ", puzzle[i][j]);
+
     }
     Console.Write("\n");
   }
@@ -65,4 +74,6 @@ double get_sqrt(float input, int decimals)
   return Math.Round(Math.Sqrt(input), decimals);
 }
 
-Console.WriteLine(get_sqrt(14, 3));
+// Console.WriteLine(get_sqrt(14.28f, 3));
+
+puzzle_game();
